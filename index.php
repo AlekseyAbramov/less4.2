@@ -58,7 +58,7 @@ and open the template in the editor.
                 <th></th>
             </tr>
         <?php
-        $pdo = new PDO("mysql:host=localhost;dbname=global", "aabramov", "neto1499");
+        $pdo = new PDO("mysql:host=localhost;dbname=aabramov", "aabramov", "neto1499");
         $char = "SET names 'utf8'";
         $pdo->query($char);
         $sql_sort = "";
